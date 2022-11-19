@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Desafio nº5</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+  <link rel="stylesheet" href="stylos.css">
+</head>
+<body>
+  <section class="main">
+    <div class="cabecera">
+      <div class="cabecera__texto">
+        <p class="cabecera__texto-titulo">My balance</p>
+        <p class="cabecera__texto-precio"> $921.48</p>
+      </div> 
+      <div class="cabecera__img">
+        <img src="./images/logo.svg">
+      </div>
+    </div>
+
+    <div class="cuerpo">
+      <h1 class="cuerpo__title">Spending - Last 7 days</h1>
+      <div class="cuerpo__grafico">
+          <!--fila1-->
+          <p id="p1" class="cuerpo__grafico-notacion"></p>
+          <p id="p2" class="cuerpo__grafico-notacion"></p>
+          <p id="p3" class="cuerpo__grafico-notacion"></p>
+          <p id="p4" class="cuerpo__grafico-notacion"></p>
+          <p id="p5" class="cuerpo__grafico-notacion"></p>
+          <p id="p6" class="cuerpo__grafico-notacion"></p>
+          <p id="p7" class="cuerpo__grafico-notacion"></p>
+          <!--fila2-->
+          <button onclick="modifica('p1')" id="b1" class="cuerpo__grafico-barra"></button>
+          <button onclick="modifica('p2')" id="b2" class="cuerpo__grafico-barra"></button>
+          <button onclick="modifica('p3')" id="b3" class="cuerpo__grafico-barra"></button>
+          <button onclick="modifica('p4')" id="b4" class="cuerpo__grafico-barra"></button>
+          <button onclick="modifica('p5')" id="b5" class="cuerpo__grafico-barra"></button>
+          <button onclick="modifica('p6')" id="b6" class="cuerpo__grafico-barra"></button>
+          <button onclick="modifica('p7')" id="b7" class="cuerpo__grafico-barra"></button>
+          <!--fila3-->
+          <p class="cuerpo__grafico-pie">mon</p>
+          <p class="cuerpo__grafico-pie">tue</p>
+          <p class="cuerpo__grafico-pie">wed</p>
+          <p class="cuerpo__grafico-pie">thu</p>
+          <p class="cuerpo__grafico-pie">fri</p>
+          <p class="cuerpo__grafico-pie">sat</p>
+          <p class="cuerpo__grafico-pie">sun</p>
+      </div>
+      
+      <br>
+      <hr class="linea">
+      <div class="pie">
+        <p class="pie__textl">Total this month</p>
+        <p class="pie__porcentaje">+2.4%</p>
+        <p class="pie__valor">$478.33</p>
+        <p class="pie__textr">from last month</p>
+        
+      </div>
+    </div>
+  </section>
+
+      
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Paco Alonso</a>.
+  </div>
+  <script src="codigo.js"></script> 
+</body>
+</html>
