@@ -98,8 +98,8 @@ body {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr 11fr 1fr;
-      grid-template-rows: 1fr 11fr 1fr;
+  -ms-grid-rows: 20fr 1fr;
+      grid-template-rows: 20fr 1fr;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
@@ -115,7 +115,8 @@ body {
   text-align: center;
   padding: 3px;
   font-size: 13px;
-  top: -50px;
+  top: -10px;
+  margin-left: -5px;
   visibility: hidden;
 }
 
@@ -124,7 +125,7 @@ body {
   background-color: #ec775f;
   border: none;
   border-radius: 8px;
-  position: relative;
+  margin-top: 8px;
 }
 
 .cuerpo__grafico-barra:hover {
@@ -140,6 +141,7 @@ body {
 .cuerpo__grafico-pie {
   font-size: 0.6em;
   color: #93867b;
+  margin-left: -20px;
 }
 
 @media (min-width: 600px) {
@@ -149,6 +151,9 @@ body {
   }
   .cuerpo__grafico-barra {
     width: 50px;
+  }
+  .cuerpo__grafico-notacion {
+    margin-left: 5px;
   }
 }
 

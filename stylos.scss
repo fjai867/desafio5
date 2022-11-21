@@ -111,12 +111,14 @@ body{
         margin-left: 10px;
         display:grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 11fr 1fr;
+        grid-template-rows:  20fr 1fr;
         align-items: end;
-        justify-items: center;
+        justify-items:center;
+        
      }
 
      &__grafico-notacion{
+        
         width:40px;
         height:20px;
         background-color:$Dark_brown;
@@ -125,8 +127,11 @@ body{
         text-align:center;
         padding: 3px;
         font-size:13px;
+        top:-10px;
+        margin-left: -5px;
         
-        top:-50px;
+        
+        
         visibility: hidden;
      }
 
@@ -138,6 +143,9 @@ body{
         background-color: $Soft_red;
         border:none;
         border-radius:8px;
+        margin-top: 8px;
+        
+        
         
         
 
@@ -158,6 +166,7 @@ body{
     &__grafico-pie{
         font-size:0.6em;
         color:$Medium_brown;
+        margin-left: -20px;
         
 
         
@@ -171,10 +180,13 @@ body{
             width:50px;
         }
 
-        
+        &__grafico-notacion{
+            margin-left:5px;
         }
-}
 
+       
+}
+}
 
 
 .linea{
