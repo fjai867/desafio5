@@ -9,17 +9,19 @@
 
 $Soft_red: hsl(10, 79%, 65%);
 $Cyan: hsl(186, 34%, 60%);
-$rosa:hsl(330, 86%, 83%);
+$rosa:#ff9b87;
+$rosa2:#f7e9dc;
+
 
 $Dark_brown: hsl(25, 47%, 15%);
 $Medium_brown: hsl(28, 10%, 53%);
 $Cream: hsl(27, 66%, 92%);
-$Very_pale_orange: hsl(33, 100%, 98%);
+$Very_pale_orange:#fffcf7;
 $fuente:'DS Sans', sans-serif;
 
 
 body{
-    background-color:$rosa;
+    background-color:$rosa2;
     font-size: 18px;
     font-family: $fuente;
     
@@ -97,7 +99,7 @@ body{
     margin-top: 25px;
     width: 343px;
     height:421px;
-    background-color:$Cream;
+    background-color:$Very_pale_orange;
     border-radius:17px;
 
     &__title{

@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #f9aed4;
+  background-color: #f7e9dc;
   font-size: 18px;
   font-family: "DS Sans", sans-serif;
 }
@@ -40,7 +40,7 @@ body {
   height: 70px;
   margin-left: 30px;
   margin-top: 20px;
-  color: #fffaf5;
+  color: #fffcf7;
 }
 
 .cabecera__texto-titulo {
@@ -82,7 +82,7 @@ body {
   margin-top: 25px;
   width: 343px;
   height: 421px;
-  background-color: #f8e9dd;
+  background-color: #fffcf7;
   border-radius: 17px;
 }
 
@@ -129,7 +129,7 @@ body {
 }
 
 .cuerpo__grafico-barra:hover {
-  background-color: #f9aed4;
+  background-color: #ff9b87;
   cursor: pointer;
 }
 
